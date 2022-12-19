@@ -8,7 +8,7 @@ import { JsonValue } from "./Json";
  * @property {Array<PreferenceCenter.CommonSection>} sections a list of sections
  * @property {?CommonDisplay} display display information
  */
-export declare type PreferenceCenter = {
+export type PreferenceCenter = {
     id: string;
     sections: Section[];
     display?: CommonDisplay;
@@ -19,14 +19,14 @@ export declare type PreferenceCenter = {
  * @property {string} name
  * @property {?string} description
  */
-export declare type CommonDisplay = {
+export type CommonDisplay = {
     name: string;
     description?: string;
 };
-export declare type Icon = {
+export type Icon = {
     icon: string;
 };
-export declare type IconDisplay = CommonDisplay & Partial<Icon>;
+export type IconDisplay = CommonDisplay & Partial<Icon>;
 export interface ItemBase {
     type: unknown;
     id: string;
@@ -73,8 +73,8 @@ export interface NotificationOptInCondition extends ConditionBase {
     type: 'notification_opt_in';
     when_status: 'opt_in' | 'opt_out';
 }
-export declare type Condition = NotificationOptInCondition;
-export declare type Actions = {
+export type Condition = NotificationOptInCondition;
+export type Actions = {
     [key: string]: JsonValue;
 };
 export interface Button {
@@ -104,5 +104,5 @@ export interface LabeledSectionBreak extends SectionBase {
     type: 'labeled_section_break';
     items: never;
 }
-export declare type Item = ChannelSubscriptionItem | ContactSubscriptionGroupItem | ContactSubscriptionItem | AlertItem;
-export declare type Section = CommonSection | LabeledSectionBreak;
+export type Item = ChannelSubscriptionItem | ContactSubscriptionGroupItem | ContactSubscriptionItem | AlertItem;
+export type Section = CommonSection | LabeledSectionBreak;

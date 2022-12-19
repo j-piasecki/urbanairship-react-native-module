@@ -1,7 +1,7 @@
 /**
  * @hidden
  */
-export declare type DispatchEventsCallback = (source: (eventType: string) => Promise<any>) => Promise<any>;
+export type DispatchEventsCallback = (source: (eventType: string) => Promise<any>) => Promise<any>;
 /**
  * @hidden
  */

@@ -3,4 +3,4 @@ export interface SubscriptionLists {
     channel?: string[];
     contact?: Map<string, SubscriptionScope[]>;
 }
-export declare type SubscriptionListType = "channel" | "contact";
+export type SubscriptionListType = "channel" | "contact";

@@ -1,5 +1,5 @@
-export declare type JsonValue = string | number | boolean | null | JsonObject | JsonArray;
-export declare type JsonObject = {
+export type JsonValue = string | number | boolean | null | JsonObject | JsonArray;
+export type JsonObject = {
     [key: string]: JsonValue;
 };
-export declare type JsonArray = JsonValue[];
+export type JsonArray = JsonValue[];

@@ -149,11 +149,11 @@ export interface ConfigEnvironment {
 /**
  * Possible sites.
  */
-export declare type Site = "us" | "eu";
+export type Site = "us" | "eu";
 /**
  * Log levels.
  */
-export declare type LogLevel = "verbose" | "debug" | "info" | "warning" | "error" | "none";
+export type LogLevel = "verbose" | "debug" | "info" | "warning" | "error" | "none";
 /**
  * Airship config
  */
