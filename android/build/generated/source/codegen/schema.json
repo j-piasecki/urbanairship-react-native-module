@@ -1,0 +1,128 @@
+{
+  "modules": {
+    "UARCTMessageView": {
+      "type": "Component",
+      "components": {
+        "UARCTMessageView": {
+          "extendsProps": [
+            {
+              "type": "ReactNativeBuiltInType",
+              "knownTypeName": "ReactNativeCoreViewProps"
+            }
+          ],
+          "events": [
+            {
+              "name": "onLoadStarted",
+              "optional": false,
+              "bubblingType": "bubble",
+              "paperTopLevelNameDeprecated": "topLoadStarted",
+              "typeAnnotation": {
+                "type": "EventTypeAnnotation",
+                "argument": {
+                  "type": "ObjectTypeAnnotation",
+                  "properties": [
+                    {
+                      "name": "messageId",
+                      "optional": false,
+                      "typeAnnotation": {
+                        "type": "StringTypeAnnotation"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "onLoadFinished",
+              "optional": false,
+              "bubblingType": "bubble",
+              "paperTopLevelNameDeprecated": "topLoadFinished",
+              "typeAnnotation": {
+                "type": "EventTypeAnnotation",
+                "argument": {
+                  "type": "ObjectTypeAnnotation",
+                  "properties": [
+                    {
+                      "name": "messageId",
+                      "optional": false,
+                      "typeAnnotation": {
+                        "type": "StringTypeAnnotation"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "onLoadError",
+              "optional": false,
+              "bubblingType": "bubble",
+              "paperTopLevelNameDeprecated": "topLoadError",
+              "typeAnnotation": {
+                "type": "EventTypeAnnotation",
+                "argument": {
+                  "type": "ObjectTypeAnnotation",
+                  "properties": [
+                    {
+                      "name": "messageId",
+                      "optional": false,
+                      "typeAnnotation": {
+                        "type": "StringTypeAnnotation"
+                      }
+                    },
+                    {
+                      "name": "retryable",
+                      "optional": false,
+                      "typeAnnotation": {
+                        "type": "BooleanTypeAnnotation"
+                      }
+                    },
+                    {
+                      "name": "error",
+                      "optional": false,
+                      "typeAnnotation": {
+                        "type": "StringTypeAnnotation"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "onClose",
+              "optional": false,
+              "bubblingType": "bubble",
+              "paperTopLevelNameDeprecated": "topClose",
+              "typeAnnotation": {
+                "type": "EventTypeAnnotation",
+                "argument": {
+                  "type": "ObjectTypeAnnotation",
+                  "properties": [
+                    {
+                      "name": "messageId",
+                      "optional": false,
+                      "typeAnnotation": {
+                        "type": "StringTypeAnnotation"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "props": [
+            {
+              "name": "messageId",
+              "optional": false,
+              "typeAnnotation": {
+                "type": "StringTypeAnnotation",
+                "default": null
+              }
+            }
+          ],
+          "commands": []
+        }
+      }
+    }
+  }
+}

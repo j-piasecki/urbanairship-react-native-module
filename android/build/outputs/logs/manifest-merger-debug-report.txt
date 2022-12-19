@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:1:1-22:12
+INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:1:1-22:12
+INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:1:1-22:12
+	package
+		ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:2:5-43
+		INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:4:5-21:19
+meta-data#com.urbanairship.autopilot
+ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:6:9-8:75
+	android:value
+		ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:8:13-72
+	android:name
+		ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:7:13-54
+activity#com.urbanairship.reactnative.CustomMessageCenterActivity
+ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:10:9-19:20
+	android:label
+		ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:12:13-60
+	android:launchMode
+		ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:13:13-44
+	android:exported
+		ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:11:13-84
+intent-filter#action:name:com.urbanairship.VIEW_RICH_PUSH_INBOX+category:name:android.intent.category.DEFAULT
+ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:15:13-18:29
+action#com.urbanairship.VIEW_RICH_PUSH_INBOX
+ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:16:17-80
+	android:name
+		ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:16:25-77
+category#android.intent.category.DEFAULT
+ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:17:17-76
+	android:name
+		ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:17:27-73
+uses-sdk
+INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+		ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+		ADDED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml

@@ -1,0 +1,6 @@
+com/urbanairship/reactnative/BuildConfig.java
+ com.urbanairship.reactnative.BuildConfig
+com/facebook/react/viewmanagers/UARCTMessageViewManagerInterface.java
+ com.facebook.react.viewmanagers.UARCTMessageViewManagerInterface
+com/facebook/react/viewmanagers/UARCTMessageViewManagerDelegate.java
+ com.facebook.react.viewmanagers.UARCTMessageViewManagerDelegate

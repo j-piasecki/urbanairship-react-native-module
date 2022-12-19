@@ -1,0 +1,43 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.urbanairship.reactnative" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="31" />
+7-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:4:5-21:19
+10        <meta-data
+10-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:6:9-8:75
+11            android:name="com.urbanairship.autopilot"
+11-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:7:13-54
+12            android:value="com.urbanairship.reactnative.ReactAutopilot" />
+12-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:8:13-72
+13
+14        <activity
+14-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:10:9-19:20
+15            android:name="com.urbanairship.reactnative.CustomMessageCenterActivity"
+15-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:11:13-84
+16            android:exported="false"
+16-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:14:13-37
+17            android:label="@string/ua_message_center_title"
+17-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:12:13-60
+18            android:launchMode="singleTask" >
+18-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:13:13-44
+19            <intent-filter>
+19-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:15:13-18:29
+20                <action android:name="com.urbanairship.VIEW_RICH_PUSH_INBOX" />
+20-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:16:17-80
+20-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:16:25-77
+21
+22                <category android:name="android.intent.category.DEFAULT" />
+22-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:17:17-76
+22-->/Users/jakubpiasecki/Projects/urbanairship-react-native-module/fabricexample/node_modules/urbanairship-react-native/android/src/main/AndroidManifest.xml:17:27-73
+23            </intent-filter>
+24        </activity>
+25    </application>
+26
+27</manifest>
