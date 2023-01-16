@@ -23,6 +23,9 @@ RCT_EXTERN_METHOD(setUserNotificationsEnabled:(BOOL *))
 
 RCT_EXTERN_METHOD(enableChannelCreation)
 
+RCT_EXTERN_METHOD(enableUserPushNotifications:(RCTPromiseResolveBlock *)resolve
+                  rejecter:(RCTPromiseRejectBlock *)reject)
+
 RCT_EXTERN_METHOD(setEnabledFeatures:(NSArray *)features resolver:(RCTPromiseResolveBlock *)resolve
                                       rejecter:(RCTPromiseRejectBlock *)reject)
 
